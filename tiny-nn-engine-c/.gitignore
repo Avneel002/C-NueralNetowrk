@@ -1,0 +1,17 @@
+*.o
+*.out
+*.exe
+tiny_nn
+test_tensor
+build/
+bin/
+obj/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+vgcore.*
+*.log
