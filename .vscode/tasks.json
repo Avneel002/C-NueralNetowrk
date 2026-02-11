@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build All",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "make clean"
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "make check"
+        },
+        {
+            "label": "Run Valgrind",
+            "type": "shell",
+            "command": "make valgrind"
+        }
+    ]
+}
